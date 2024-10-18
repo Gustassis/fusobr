@@ -1,0 +1,2 @@
+ <span className="projeto-data-span"><img src={Data} alt="Data icon" className='icone-obras' />Data de início: {new Date(projeto.datadeinicio + 'T00:00:00').toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' })}</span>
+                        <span className="projeto-data-span"><img src={Data} alt="Data icon" className='icone-obras' />Data final: {new Date(projeto.datadeconclusao + 'T00:00:00').toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' })}</span>
